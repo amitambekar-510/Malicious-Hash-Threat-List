@@ -1,2 +1,79 @@
-# Malicious-Hash-Threat-List
-A public repository that provides regularly updated lists of malicious file hashes (MD5, SHA-1, SHA-256) and related metadata for use in firewall, gateway endpoint or other security device blocking and prevention scenarios.
+# 🔐 Malicious Hash Threat Intelligence Repository  
+A curated collection of **malicious file hashes (MD5 / SHA-1 / SHA-256)** that can be used for **blocking, detection and threat hunting** across firewalls, EDR, SIEM, SOAR and other security platforms.
+
+## 📘 Overview  
+This repository provides regularly updated lists of malicious file hashes observed across various threat campaigns.  
+Security teams can use these lists to:
+
+- Block known malicious files at **firewall / endpoint level**
+- Enrich SOC investigations and threat hunting
+- Improve detection capabilities by feeding hashes into SIEM/SOAR
+- Automate IOC ingestion with EDR or XDR solutions
+
+📢 Update Notice  
+• Date: **2025-11-19 12:55 IST** 
+• Total Malicious Hashes:
+  MD5: **4049** (Each File 3000)
+  SHA1: **557** (Each File 1000)
+  SHA256: **80378** (Each File 20000)
+
+## 📁 Repository Structure  
+/
+├── README.md
+├── hashes/
+│ ├── md5.txt
+│ ├── sha1.txt
+│ ├── sha256.txt
+
+## 🧩 Hash Formats Included  
+| Hash Type | Usage |
+|----------|--------|
+| **MD5** | Lightweight integrity checks; some legacy systems |
+| **SHA-1** | Better integrity validation; still used by some tools |
+| **SHA-256** | Preferred industry standard; most reliable |
+|----------|--------|
+
+## 🚀 How to Use  
+### **1️⃣ Select the required hash list**
+Choose a list under `hashes/` (e.g., `sha256.txt`).
+
+### **2️⃣ Import into your security device**  
+Examples:
+
+- **Firewall:** Add hashes to file checksum blocklist
+  You can also use RAW link which is as follow:-
+  MD5:
+  SHA1:
+  SHA256:
+  
+- **EDR/XDR:** Import TXT or make it in JSON or CSV as IOC watchlist  
+- **SIEM:** Upload to threat intelligence module  
+- **SOAR:** Automate enrichment/response playbooks  
+
+### **3️⃣ Monitor for hits**
+Any detection or block event should be investigated.
+
+## 🛑 Important Notes  
+⚠️ Use responsibly — hash matches indicate a known malicious file but require full investigation.  
+⚠️ Hashes cannot detect polymorphic or mutated malware variants.  
+⚠️ Verify your organization’s compliance requirements before mass-blocking.  
+
+## 🛠 Contribution Guidelines  
+We welcome community contributions!
+
+### **Wish to Contribution then Requirements**
+- Only submit **verified malicious hashes**  
+- Provide metadata when possible  
+- Avoid duplicates  
+
+## 📅 Update Policy  
+- Repository updated **weekly** or during major threat events  
+
+✅ Use at Your Own Risk
+Anyone using the data should test, verify, and implement it at their own risk, based on their own security policies and environment.
+
+## 👤 Maintainer  
+**Amit Ambekar**  
+GitHub: *github.com/amitambekar510*  
+Linkedin: *https://www.linkedin.com/in/amitmilindambekar/*
+For issues or suggestions, raise an **Issue** in this repository.
