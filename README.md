@@ -19,7 +19,7 @@ Security teams can use these lists to:
   
   SHA1: **557** (Each File 1000)
   
-  SHA256: **80378** (Each File 20000)
+  SHA256: **80378** (Each File 60000)
 
 ## 📁 Repository Structure  
 /
@@ -72,13 +72,7 @@ https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs
 https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/malicious_SHA256_hashes_aa.txt
 
 https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/malicious_SHA256_hashes_ab.txt
-
-https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/malicious_SHA256_hashes_ac.txt
-
-https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/malicious_SHA256_hashes_ad.txt
-
-https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/malicious_SHA256_hashes_ae.txt
-  
+ 
 - **EDR/XDR:** Import TXT or make it in JSON or CSV as IOC watchlist  
 - **SIEM:** Upload to threat intelligence module  
 - **SOAR:** Automate enrichment/response playbooks  
