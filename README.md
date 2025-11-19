@@ -12,25 +12,39 @@ Security teams can use these lists to:
 
 📢 Update Notice  
 • Date: **2025-11-19 12:55 IST** 
+
 • Total Malicious Hashes:
+
   MD5: **4049** (Each File 3000)
+  
   SHA1: **557** (Each File 1000)
+  
   SHA256: **80378** (Each File 20000)
 
 ## 📁 Repository Structure  
 /
 ├── README.md
+
 ├── hashes/
+
 │ ├── md5.txt
+
 │ ├── sha1.txt
+
 │ ├── sha256.txt
 
 ## 🧩 Hash Formats Included  
+
 | Hash Type | Usage |
+
 |----------|--------|
+
 | **MD5** | Lightweight integrity checks; some legacy systems |
+
 | **SHA-1** | Better integrity validation; still used by some tools |
+
 | **SHA-256** | Preferred industry standard; most reliable |
+
 |----------|--------|
 
 ## 🚀 How to Use  
