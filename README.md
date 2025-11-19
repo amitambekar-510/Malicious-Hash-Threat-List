@@ -56,9 +56,28 @@ Examples:
 
 - **Firewall:** Add hashes to file checksum blocklist
   You can also use RAW link which is as follow:-
+  
   MD5:
+
+https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/Malicious_md5_hashes_aa.txt
+
+https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/malicious_md5_hashes_ab.txt
+
   SHA1:
+
+https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/malicious_SHA1_hashes-aa.txt
+
   SHA256:
+
+https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/malicious_SHA256_hashes_aa.txt
+
+https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/malicious_SHA256_hashes_ab.txt
+
+https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/malicious_SHA256_hashes_ac.txt
+
+https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/malicious_SHA256_hashes_ad.txt
+
+https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/refs/heads/main/malicious_SHA256_hashes_ae.txt
   
 - **EDR/XDR:** Import TXT or make it in JSON or CSV as IOC watchlist  
 - **SIEM:** Upload to threat intelligence module  
@@ -88,6 +107,6 @@ Anyone using the data should test, verify, and implement it at their own risk, b
 
 ## 👤 Maintainer  
 **Amit Ambekar**  
-GitHub: *github.com/amitambekar510*  
+GitHub: *https://www.github.com/amitambekar510*  
 Linkedin: *https://www.linkedin.com/in/amitmilindambekar/*
 For issues or suggestions, raise an **Issue** in this repository.
